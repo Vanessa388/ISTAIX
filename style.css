@@ -1,0 +1,399 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color:#243746;
+    padding: 20px 40px;
+}
+
+ header a{
+    text-decoration: none;
+    color:white;
+    
+    }
+
+ nav{
+    display: flex;
+    gap: 30px;
+
+ } 
+ header button{
+  color: white;
+  background-color: #7c8f9c;
+  padding: 10px;
+  border-radius: 2px;
+  border-color: #7c8f9c;
+ }
+ .logo{
+    color:white;
+    font-size:24px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+ }  
+ .herosection{
+    background-image: url(herosection);
+    background-position:center;
+    background-size:cover;
+    padding:110px 40px;
+    
+ }
+ 
+ h1{
+    font-size: 48px;
+    font-weight: lighter;
+    
+    
+ }
+ .herosection p{
+    font-size:16px;
+    color:#949ca4;
+    font-weight: bolder;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+ }
+ .button{
+  padding: 8px;
+  background-color: #243746;
+  color: white;
+ }
+
+ .explore{
+  color:#ffffff;
+  padding: 10px; 
+  border-radius: 50px;
+  border-color: #ffffff;
+  background-color: #ffffff;
+
+ }
+ .hero-btns h5{
+  font-size:16px;
+  gap: 5px;
+ }
+
+
+ .herosection img{
+  height: 32px;
+  width: 32px;
+  border-radius: 20px;
+ }
+ 
+
+ .hero-btns{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ .achievements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:60px 40px;
+    }
+ .works{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px 50px;
+    max-width: 450px;
+    margin-right: 200px;
+    
+ }
+ .stat-item{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  
+ }
+.stat-item i{
+  font-size: 24px;
+  color: #C9A227;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  background-color: black;
+  padding: 10px;
+  border-radius: 30px;
+}
+.stat-item h4{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+.stat-item p{
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+  
+}
+
+ 
+.ACHIEVEMENT{
+   margin-left: 100px;
+}
+.achievements h2{
+   font-size: 36px;
+   margin-bottom:0;
+}
+.ACHIEVEMENT p{
+   margin-top: 10px;
+}
+.trustedclients img{
+   width: 300px;
+   height: 150px;
+   
+  }
+ 
+ .client-image{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   padding: 40px 80px;
+ } 
+ .trustedclients h3{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   font-size: 32px;
+   font-weight: bold;
+ }
+ .construction{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 30px 40px;
+ }
+ .construction h4, p, a{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+ }
+ .construction h4{
+   font-size: 24px;
+ }
+ .canadian img{
+   padding: 23px;
+ }
+ .construction p{
+   color:#949ca4 ;
+   font-weight: bold;
+ }
+ .construction a{
+   text-decoration: none;
+   color: #a86405 ;
+ } 
+ .build{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 80px 40px;
+ }
+ .build h2{
+   text-align: center;
+   font-size: 40px;
+   font-family: 'Montserrat', sans-serif;
+   margin-bottom: 15px;
+ }
+ .build p{
+   font-size: 18px;
+   margin-top: 0;
+ }
+ .review{
+   text-align: center;
+   background-color:#e7f0f5 ;
+   padding: 60px 40px;
+ }
+ .review p{
+   margin: 0;
+   display: flex;
+   justify-self: center;
+  
+ }
+ .quote{
+   border: 1px solid;
+   background-color: #ffffff;
+   padding: 40px 50px;
+   display: inline-block;
+   border-color: #ffffff;
+ }
+ .review h5{
+  margin: 0;
+  padding: 0;
+ }
+ .Jane-cooper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  
+ }
+ .Jane-cooper img{
+  width: 48px;
+  height: 48px;
+  border-radius: 30px;
+}
+.Jane-cooper p{
+  margin-bottom: 5px;
+  font-size: 16px;
+  margin-left: 0;
+}
+.Jane-cooper h5{
+  font-size: 20px;
+}
+
+
+
+.people{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.ceo{
+  display: flex;
+  justify-content: center;
+  
+}
+ 
+
+ .free{
+  background-image: url(Get\ a\ free\ quote.jpeg);
+  background-position: center;
+  background-size:cover;
+  padding: 80px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 60px;
+  margin-left:60px ;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 10px;
+}
+.free h2{
+  text-align: center;
+  font-size: 25px;
+  font-family:'Montserrat', sans-serif;
+  }
+#email{
+  padding: 5px;
+}
+.free button{
+  margin-left: 0;
+  padding: 5px;
+  color: white;
+  background-color: #243746;
+
+}
+footer{
+  background-color: #243746;
+  padding: 20px 40px;
+}
+footer p{
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  color: white;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+  gap: 10px;
+}
+footer span{
+  margin-left: 25px;
+}
+
+.daniel{
+  background-color: #ffffff;
+  border: 1px solid;
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  left: 450px;
+  top: 10px;
+  border-color: #ffffff;
+  padding: 10px 10px;
+}
+.daniel img{
+  margin: 0;
+}
+.daniel h3{
+  margin:0;
+  padding: 0;
+}
+.fa{
+  color: gold;
+  margin: 0;
+  
+}
+.johns{
+  display: block;
+  position: relative;
+  
+}
+.martha{
+   background-color: #ffffff;
+  border: 1px solid;
+  max-width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  left: 600px;
+  top: 10px;
+  border-color: #ffffff;
+  padding: 10px 10px;
+}
+.martha img{
+  margin: 0;
+  
+}
+.martha h3{
+  margin: 0;
+  padding: 0;
+}
+.may{
+  display: block;
+  position: relative;
+}
+.works img{
+  width: 24px;
+  height: 24px;
+  
+}
+.clients{
+  display: block;
+  position: relative;
+}
+.footer-image img{
+  width: 128px;
+  height: 48px;
+}
+.footer-image{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+
+}
+.footer-text{
+  display: flex;
+  justify-content: space-between;
+}
